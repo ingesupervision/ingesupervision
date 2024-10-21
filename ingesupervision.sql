@@ -144,3 +144,17 @@ insert into Informe_elemento values('V_P5_A2',54)
 
 
 exec sp_help Muestra
+
+select * from Supervisor
+
+insert into Supervisor values('209746-09127450 ANT','Dinora Diez', 3103840918);
+insert into Supervisor values('98104-40912745 BOL','Diego Echavarria', 3025090128);
+
+select * from Coordinador
+
+insert into Coordinador values('89123-20918745 ANT', 'Maria Isable Correa', 3107260917);
+insert into Coordinador values('50982-40918726 ANT', 'Sergio Galindo Perea', 3124198756);
+
+select * from Proyecto
+insert into Proyecto values(23456,'Atlantica','2022-04-20','Cl 40 #50-208','Moises Angulo','Elena Belikova')
+insert into Proyecto values(18945,'Mazanti','2023-01-14','Cl 11 # 43B-50','Luz Dari Gallego','Brahian Medina')
